@@ -1,0 +1,5 @@
+/MNIST_data
+trained_models/
+model_mats/
+job_result.json
+__pycache__*

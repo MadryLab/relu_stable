@@ -1,0 +1,86 @@
+example
+Fraction correct: 0.9735
+Verifying 1 through 2
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+[32m[info | MIPVerify]: Working on index 1
+[39m[36m[notice | MIPVerify]: Attempting to find adversarial example. Neural net predicted label is 8, target labels are [1, 2, 3, 4, 5, 6, 7, 9, 10]
+[39m[36m[notice | MIPVerify]: Rebuilding model from scratch. This may take some time as we determine upper and lower bounds for the input to each non-linear unit.
+[39m[32m[info | MIPVerify]: Applying Flatten() ... 
+[39m[32m[info | MIPVerify]: Applying Linear(784 -> 3136) ... 
+[39m[32m[info | MIPVerify]: Applying ReLU() ...
+[39m[32m[info | MIPVerify]:   Behavior of ReLUs - split: 579, zero_output: 152, linear_in_input: 1958, constant_output: 447
+[39m[32m[info | MIPVerify]: Applying Linear(3136 -> 1568) ... 
+[39m[32m[info | MIPVerify]: Applying ReLU() ...
+[39m[32m[info | MIPVerify]:   Behavior of ReLUs - split: 237, zero_output: 140, linear_in_input: 1191, constant_output: 0
+[39m[32m[info | MIPVerify]: Applying Linear(1568 -> 100) ... 
+[39m[32m[info | MIPVerify]: Applying ReLU() ...
+[39m[32m[info | MIPVerify]:   Behavior of ReLUs - split: 33, zero_output: 11, linear_in_input: 56, constant_output: 0
+[39m[32m[info | MIPVerify]: Applying Linear(100 -> 10) ... 
+[39m[32m[info | MIPVerify]: Number of inputs to maximum function possibly taking maximum value: 5
+[39mOptimize a model with 6544 rows, 4057 columns and 238366 nonzeros
+Variable types: 3203 continuous, 854 integer (854 binary)
+Coefficient statistics:
+  Matrix range     [5e-08, 9e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [4e-04, 4e+00]
+  RHS range        [1e-04, 9e+00]
+
+MIP start did not produce a new incumbent solution
+MIP start violates constraint R786 by 0.056153915
+
+Presolve removed 2975 rows and 1457 columns
+Presolve time: 0.42s
+
+Explored 0 nodes (0 simplex iterations) in 0.57 seconds
+Thread count was 1 (of 40 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+[32m[info | MIPVerify]: Working on index 2
+[39m[36m[notice | MIPVerify]: Attempting to find adversarial example. Neural net predicted label is 3, target labels are [1, 2, 4, 5, 6, 7, 8, 9, 10]
+[39m[36m[notice | MIPVerify]: Rebuilding model from scratch. This may take some time as we determine upper and lower bounds for the input to each non-linear unit.
+[39m[32m[info | MIPVerify]: Applying Flatten() ... 
+[39m[32m[info | MIPVerify]: Applying Linear(784 -> 3136) ... 
+[39m[32m[info | MIPVerify]: Applying ReLU() ...
+[39m[32m[info | MIPVerify]:   Behavior of ReLUs - split: 533, zero_output: 192, linear_in_input: 1964, constant_output: 447
+[39m[32m[info | MIPVerify]: Applying Linear(3136 -> 1568) ... 
+[39m[32m[info | MIPVerify]: Applying ReLU() ...
+[39m[32m[info | MIPVerify]:   Behavior of ReLUs - split: 236, zero_output: 202, linear_in_input: 1130, constant_output: 0
+[39m[32m[info | MIPVerify]: Applying Linear(1568 -> 100) ... 
+[39m[32m[info | MIPVerify]: Applying ReLU() ...
+[39m[32m[info | MIPVerify]:   Behavior of ReLUs - split: 29, zero_output: 20, linear_in_input: 51, constant_output: 0
+[39m[32m[info | MIPVerify]: Applying Linear(100 -> 10) ... 
+[39m[32m[info | MIPVerify]: Number of inputs to maximum function possibly taking maximum value: 6
+[39mOptimize a model with 6342 rows, 3956 columns and 219098 nonzeros
+Variable types: 3152 continuous, 804 integer (804 binary)
+Coefficient statistics:
+  Matrix range     [2e-08, 9e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e-03, 4e+00]
+  RHS range        [5e-04, 8e+00]
+
+MIP start did not produce a new incumbent solution
+MIP start violates constraint R786 by 0.035628409
+
+Presolve removed 2989 rows and 1570 columns
+Presolve time: 0.72s
+Presolved: 3353 rows, 2386 columns, 210739 nonzeros
+Variable types: 1584 continuous, 802 integer (802 binary)
+
+Root relaxation: infeasible, 341 iterations, 0.04 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    1s
+
+Explored 0 nodes (341 simplex iterations) in 1.46 seconds
+Thread count was 32 (of 40 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
