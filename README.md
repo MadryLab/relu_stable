@@ -1,6 +1,7 @@
 Code for **Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability**
 _Kai Y. Xiao, Vincent Tjeng, Nur Muhammad Shafiullah, Aleksander Madry_
 https://arxiv.org/abs/1809.03008
+International Conference on Learning Representations (ICLR), 2019
 
 ### Workflow
 
