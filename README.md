@@ -1,5 +1,5 @@
 Code for **Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability**
-_Kai Y. Xiao, Vincent Tjeng, Nur Muhammad Shafiullah, Aleksander Madry_
+_Kai Xiao, Vincent Tjeng, Nur Muhammad Shafiullah, Aleksander Madry_
 https://arxiv.org/abs/1809.03008
 International Conference on Learning Representations (ICLR), 2019
 
@@ -40,3 +40,13 @@ In theory, you can use any verification procedure here; this code repo is set up
 5. **(OPTIONAL)** `./parser/convert_log.sh $MATNAME` follwed by `python parser/parse_log.py --log_name $MATNAME`: parse the logs to get exact ReLU stability numbers
 
 
+
+## Citing this Code
+```
+@article{xiao2019training,
+  title={Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability},
+  author={Xiao, Kai and Tjeng, Vincent and Shafiullah, Nur Muhammad and Madry, Aleksander},
+  journal={ICLR},
+  year={2019}
+}
+```
